@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>ALS Ice Bucket Challenge</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="jquery.min.js"></script>
+<script src="main.js"></script>
+</head>
+
+<body>
+	<header>
+		<svg class="center title" height="30" width="292">
+			<text x="0" y="20" fill="#FF0000">ALS Ice Bucket Challenge</text>
+		</svg>
+		<svg class="center" height="30" width="205">
+			<text x="0" y="20" fill="#000000">Marco Cheung @ August 2014</text>
+		</svg>
+		<a href="https://twitter.com/intent/tweet?button_hashtag=IceBucketChallenge" class="twitter-hashtag-button">Tweet #IceBucketChallenge</a>
+	</header>
+	<section>
+		<div id="container_man">
+			<svg class="center man" height="300" width="100">
+				<circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="#FFFFFF" />
+				<circle cx="35" cy="50" r="5" stroke="black" stroke-width="2" fill="#FFFFFF" />
+				<circle cx="65" cy="50" r="5" stroke="black" stroke-width="2" fill="#FFFFFF" />
+				<line x1="50" y1="92" x2="50" y2="230" stroke="black" stroke-width="3" />
+				<line x1="50" y1="120" x2="0" y2="150" stroke="black" stroke-width="3" />
+				<line x1="50" y1="120" x2="100" y2="150" stroke="black" stroke-width="3" />
+				<line x1="50" y1="230" x2="0" y2="280" stroke="black" stroke-width="3" />
+				<line x1="50" y1="230" x2="100" y2="280" stroke="black" stroke-width="3" />
+			</svg>
+		</div>
+		<div id="container_waterdrop">
+			<svg class="center" height="25" width="100">
+				<circle cx="10" cy="15" r="5" fill="#4390DF" />
+				<circle cx="20" cy="10" r="5" fill="#4390DF" />
+				<circle cx="30" cy="20" r="5" fill="#4390DF" />
+				<circle cx="40" cy="10" r="5" fill="#4390DF" />
+				<circle cx="50" cy="18" r="5" fill="#4390DF" />
+				<circle cx="60" cy="10" r="5" fill="#4390DF" />
+				<circle cx="70" cy="20" r="5" fill="#4390DF" />
+				<circle cx="80" cy="12" r="5" fill="#4390DF" />
+				<circle cx="90" cy="9" r="5" fill="#4390DF" />
+			</svg>
+		</div>
+		<div id="container_bucket">
+			<svg class="center fadeIn" height="105" width="100">
+				<line x1="10" y1="50" x2="10" y2="100" stroke="black" stroke-width="2" />
+				<line x1="89" y1="50" x2="89" y2="100" stroke="black" stroke-width="2" />
+				<line x1="10" y1="100" x2="90" y2="100" stroke="black" stroke-width="2" />
+				<rect x="11" y="50" width="77" height="49" fill="transparent" />
+				<rect x="11" y="59" width="77" height="40" fill="#4390DF" />
+				<circle cx="20" cy="90" r="3" fill="#FFFFFF" />
+				<circle cx="30" cy="78" r="5" fill="#FFFFFF" />
+				<circle cx="40" cy="90" r="4" fill="#FFFFFF" />
+				<circle cx="50" cy="80" r="5" fill="#FFFFFF" />
+				<circle cx="60" cy="90" r="3" fill="#FFFFFF" />
+				<circle cx="70" cy="75" r="4" fill="#FFFFFF" />
+				<circle cx="80" cy="90" r="5" fill="#FFFFFF" />
+			</svg>
+		</div>
+		<audio id="water" preload="auto" hidden="hidden">
+			<source src="water.mp3" type="audio/mpeg">
+			<source src="water.wav" type="audio/wav">
+		</audio>
+	</section>
+	<section id="info">
+		<p><a href="http://www.alsa.org/about-als/what-is-als.html" target="_blank">What is ALS?</a></p>
+		<p>To donate please visit <a href="http://www.alsa.org" target="_blank">www.alsa.org</a></p>
+		<p>Let's create a world without ALS</p>
+	</section>
+	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+</body>
+</html>
